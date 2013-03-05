@@ -49,8 +49,8 @@ echo GECKO_OBJDIR=$PWD/objdir-gecko >> .tmp-config
 echo DEVICE_NAME=$1 >> .tmp-config
 
 case "$1" in
-"galaxy-s2")
-	echo DEVICE=galaxys2 >> .tmp-config &&
+"one touch 985a")
+	echo DEVICE=one touch 985a >> .tmp-config &&
 	repo_sync $1
 	;;
 
@@ -100,7 +100,7 @@ case "$1" in
 	echo Usage: $0 \(device name\)
 	echo
 	echo Valid devices to configure are:
-	echo - galaxy-s2
+	echo - one touch 985a
 	echo - galaxy-nexus
 	echo - nexus-s
 	echo - nexus-s-4g
